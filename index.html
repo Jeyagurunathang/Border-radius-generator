@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<head lang="en">
+    <title>CSS border-radius generator</title>
+    <link rel="stylesheet" href="./css/styel.css">
+</head>
+<body>
+    <div id="container">
+        <div id="manipulate">
+            <div class="form-group">
+                <label>Border Radius: <span class="br-shower" id="br-all-shower">0px</span></label>
+                <input type="range" id="br-ranger" value="0" min="0" max="100">
+            </div>
+            <div class="form-group">
+                <label>Border Radius-top-left: <span class="br-shower" id="br-top-left-shower">0px</span></label>
+                <input type="range" id="br-top-left-ranger" value="0" min="0" max="100">
+            </div>
+            <div class="form-group">
+                <label>Border Radius-top-right: <span class="br-shower" id="br-top-right-shower">0px</span></label>
+                <input type="range" id="br-top-right-ranger" value="0" min="0" max="100">
+            </div>
+            <div class="form-group">
+                <label>Border Radius-bottom-left: <span class="br-shower" id="br-bottom-left-shower">0px</span></label>
+                <input type="range" id="br-bottom-left-ranger" value="0" min="0" max="100">
+            </div>
+            <div class="form-group">
+                <label>Border Radius-bottom-right: <span class="br-shower" id="br-bottom-right-shower">0px</span></label>
+                <input type="range" id="br-bottom-right-ranger" value="0" min="0" max="100">
+            </div>
+        </div>
+        <div id="preview">
+            <div id="emptybox">
+                <div id="mainbox"></div>
+            </div>
+            <div id="txtcontent">
+                <textarea id="txtarea"></textarea>
+            </div>
+            <div id="btnholder">
+                <button id="btn">COPY</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
